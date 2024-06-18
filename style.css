@@ -1,0 +1,297 @@
+body {
+    background-color: #C9E7E1;
+    font-family: 'b nazanin';
+    font-size: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.container {
+    width: 1024px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    background-image:url("img/stationery.jpg");
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3498DB;
+}
+
+nav ul li a:hover {
+    background-color: rgb(240, 240, 231);
+}
+
+.content {
+    border-top: 1px solid #7a7777; 
+    width: 90%; 
+    display: block;
+    padding: 10px; 
+    text-align: center;
+    
+}
+
+
+.product-container {
+    width: 30%;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 1px solid #00000003;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.product-container h4 ,.product-container .price, .product-container .quantity, .product-container .description{
+    color: black;
+}
+
+.product-container img {
+    width: 245px;
+    height: 196px;
+
+}
+
+
+.product-container .order-button {
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(177, 218, 224);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.product-container .order-button:hover {
+    background-color: rgb(71, 136, 166);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.form-table td {
+    padding: 10px;
+    border: 0px solid #ccc;
+}
+
+.form-table td:first-child {
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+    color: #333;
+}
+/* styles.css */
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.input-style { 
+    background-color: lightgray;
+}
+.blue {
+    color: blue;
+}
+.form-table input[type=text], .form-table input[type="file"],
+.form-table textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-table input[type=button] {
+    background-color: #2951c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-table input[type=button]:hover {
+    background-color: #6980a4;
+}
+.container .form-table tr td input .style{
+    background-color:lightgray ;
+
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+form table {
+    width: 100%;
+    border: 0;
+    margin: auto;
+}
+
+
+
+
+form input[type="submit"] 
+{
+    font-family: 'b nazanin';
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ul.products {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+ul.products li {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+ul.products li span {
+    flex: 1;
+    padding: 8px;
+}
+
+ul.products li img {
+    width: 150px;
+    height: 100px;
+}
+
+ul.products li a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+ul.products li a:hover {
+    text-decoration: underline;
+}
+
+table img {
+    width: 250px;
+    height: 120px;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"], input[type="password"], input[type="submit"] 
+{
+    font-family: 'b nazanin';
+    text-align: right;
+}
+
+
+.table-order{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-order th {
+    background-color: #b4d0e4;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+.table-order td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.table-order tr {
+    background-color: #f2f2f2;
+}
+
+
+
+.table-order tr.footer-row {
+    height: 10px;
+    background-color: #b4d0e4;
+}
+
+table.products {
+    font-family: 'b nazanin';
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.products th, table.products td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+table.products th {
+    background-color: #b4dcec;
+}
+
+table.products td img {
+    max-width: 150px;
+    height: auto;
+}
+
+table.products tr {
+    background-color: #f2f2f2;
+}
+
+table.products a {
+    text-decoration: none;
+    color: #000;
+}
+
+table.products a:hover {
+    text-decoration: underline;
+}
